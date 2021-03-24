@@ -19,4 +19,5 @@ curl --location --request POST 'http://localhost:8080/api/closest_zero' \
 ## Run JUnit test
 
 `./gradlew test --tests "com.daitum.hiring.test.closestzero.ClosestZeroControllerTests"`
+
 `./gradlew test --tests "com.daitum.hiring.test.closestzero.ClosestZeroServiceTests"`
