@@ -35,7 +35,7 @@ public class ClosestZeroController {
    * @return index
    */
   @PostMapping("/api/closest_zero")
-  public ResponseEntity<Integer> findIndexOfClosestZeroSubListSum(@RequestBody RequestPayload payload) {
+  public ResponseEntity<Integer> findIndexOfClosestZeroSubList(@RequestBody RequestPayload payload) {
     Integer index = service.findFirstIndexOfClosestZeroSubList(payload.getList(), payload.getN());
     return ResponseEntity.status(HttpStatus.OK).body(index);
   }

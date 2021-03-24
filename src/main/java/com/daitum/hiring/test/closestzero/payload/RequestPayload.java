@@ -3,7 +3,9 @@ package com.daitum.hiring.test.closestzero.payload;
 import java.util.List;
 
 /**
- * Payload object
+ * Request Payload Object
+ * 
+ * @author An Do
  */
 public class RequestPayload {
   private List<Integer> list;
